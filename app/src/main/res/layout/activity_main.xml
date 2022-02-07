@@ -11,19 +11,23 @@
 
     <LinearLayout
         android:id="@+id/ll1"
-        style="@style/row">
+        style="@style/row"
+        android:layout_marginTop="10dp">
 
         <Button
             android:id="@+id/btn11"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn12"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn13"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
     </LinearLayout>
 
@@ -33,15 +37,18 @@
 
         <Button
             android:id="@+id/btn21"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn22"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn23"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
     </LinearLayout>
 
@@ -51,33 +58,40 @@
 
         <Button
             android:id="@+id/btn31"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn32"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn33"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/ll4"
-        style="@style/row">
+        style="@style/row"
+        android:layout_marginBottom="10dp">
 
         <Button
             android:id="@+id/btn41"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn42"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
         <Button
             android:id="@+id/btn43"
-            style="@style/buttonColor" />
+            style="@style/buttonColor"
+            app:cornerRadius="30dp" />
 
     </LinearLayout>
 
