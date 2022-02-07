@@ -2,85 +2,82 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout style="@style/row">
+    <LinearLayout
+        android:id="@+id/ll1"
+        style="@style/row">
 
         <Button
             android:id="@+id/btn11"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/white" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn12"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightGray2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn13"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightRedBerry2" />
+            style="@style/buttonColor" />
 
     </LinearLayout>
 
-    <LinearLayout style="@style/row">
+    <LinearLayout
+        android:id="@+id/ll2"
+        style="@style/row">
 
         <Button
             android:id="@+id/btn21"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightRed2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn22"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightOrange2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn23"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightYellow2" />
+            style="@style/buttonColor" />
 
     </LinearLayout>
 
-    <LinearLayout style="@style/row">
+    <LinearLayout
+        android:id="@+id/ll3"
+        style="@style/row">
 
         <Button
             android:id="@+id/btn31"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightGreen2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn32"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightCyan2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn33"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightCornflowerBlue2" />
+            style="@style/buttonColor" />
 
     </LinearLayout>
 
-    <LinearLayout style="@style/row">
+    <LinearLayout
+        android:id="@+id/ll4"
+        style="@style/row">
 
         <Button
             android:id="@+id/btn41"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightBlue2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn42"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightPurple2" />
+            style="@style/buttonColor" />
 
         <Button
             android:id="@+id/btn43"
-            style="@style/buttonColor"
-            android:backgroundTint="@color/lightMagenta2" />
+            style="@style/buttonColor" />
 
     </LinearLayout>
 
