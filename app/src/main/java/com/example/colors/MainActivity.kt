@@ -1,7 +1,7 @@
 package com.example.colors
 
+import android.content.Intent
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
             ContextCompat.getColor(applicationContext, R.color.lightYellow1) to binding.btn23,
             ContextCompat.getColor(applicationContext, R.color.lightGreen1) to binding.btn31,
             ContextCompat.getColor(applicationContext, R.color.lightCyan1) to binding.btn32,
-            ContextCompat.getColor(applicationContext, R.color.lightCornflowerBlue1) to binding.btn33,
+            ContextCompat.getColor(applicationContext, R.color.lightCornflowerBlue1 ) to binding.btn33,
             ContextCompat.getColor(applicationContext, R.color.lightBlue1) to binding.btn41,
             ContextCompat.getColor(applicationContext, R.color.lightPurple1) to binding.btn42,
             ContextCompat.getColor(applicationContext, R.color.lightMagenta1) to binding.btn43,
@@ -34,22 +34,17 @@ class MainActivity : AppCompatActivity() {
 
         for ((color, btn) in btnMap) {
             btn.setOnClickListener {
-                hideRows()
-                binding.root.setBackgroundColor(color)
+                val context = it.context
+                val intent = Intent(context, ColorActivity::class.java)
+                intent.putExtra(ColorActivity.COLOR, color)
+                context.startActivity(intent)
             }
         }
     }
 
-    private fun paintButtons(btnMap: Map<Int, Button>){
+    private fun paintButtons(btnMap: Map<Int, Button>) {
         for ((color, btn) in btnMap) {
             btn.setBackgroundColor(color)
         }
-    }
-
-    private fun hideRows() {
-        binding.ll1.visibility = View.INVISIBLE
-        binding.ll2.visibility = View.INVISIBLE
-        binding.ll3.visibility = View.INVISIBLE
-        binding.ll4.visibility = View.INVISIBLE
     }
 }
