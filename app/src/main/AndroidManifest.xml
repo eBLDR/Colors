@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Colors">
         <activity
             android:name=".ColorActivity"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
