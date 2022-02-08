@@ -17,17 +17,17 @@ class MainActivity : AppCompatActivity() {
 
         val btnMap: Map<Int, Button> = mapOf(
             ContextCompat.getColor(applicationContext, R.color.white) to binding.btn11,
-            ContextCompat.getColor(applicationContext, R.color.lightGray2) to binding.btn12,
-            ContextCompat.getColor(applicationContext, R.color.lightRedBerry2) to binding.btn13,
-            ContextCompat.getColor(applicationContext, R.color.lightRed2) to binding.btn21,
-            ContextCompat.getColor(applicationContext, R.color.lightOrange2) to binding.btn22,
-            ContextCompat.getColor(applicationContext, R.color.lightYellow2) to binding.btn23,
-            ContextCompat.getColor(applicationContext, R.color.lightGreen2) to binding.btn31,
-            ContextCompat.getColor(applicationContext, R.color.lightCyan2) to binding.btn32,
-            ContextCompat.getColor(applicationContext, R.color.lightCornflowerBlue2) to binding.btn33,
-            ContextCompat.getColor(applicationContext, R.color.lightBlue2) to binding.btn41,
-            ContextCompat.getColor(applicationContext, R.color.lightPurple2) to binding.btn42,
-            ContextCompat.getColor(applicationContext, R.color.lightMagenta2) to binding.btn43,
+            ContextCompat.getColor(applicationContext, R.color.lightGray1) to binding.btn12,
+            ContextCompat.getColor(applicationContext, R.color.lightRedBerry1) to binding.btn13,
+            ContextCompat.getColor(applicationContext, R.color.lightRed1) to binding.btn21,
+            ContextCompat.getColor(applicationContext, R.color.lightOrange1) to binding.btn22,
+            ContextCompat.getColor(applicationContext, R.color.lightYellow1) to binding.btn23,
+            ContextCompat.getColor(applicationContext, R.color.lightGreen1) to binding.btn31,
+            ContextCompat.getColor(applicationContext, R.color.lightCyan1) to binding.btn32,
+            ContextCompat.getColor(applicationContext, R.color.lightCornflowerBlue1) to binding.btn33,
+            ContextCompat.getColor(applicationContext, R.color.lightBlue1) to binding.btn41,
+            ContextCompat.getColor(applicationContext, R.color.lightPurple1) to binding.btn42,
+            ContextCompat.getColor(applicationContext, R.color.lightMagenta1) to binding.btn43,
         )
 
         paintButtons(btnMap)
