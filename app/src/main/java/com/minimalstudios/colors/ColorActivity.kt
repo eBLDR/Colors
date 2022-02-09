@@ -1,8 +1,8 @@
-package com.example.colors
+package com.minimalstudios.colors
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.colors.databinding.ActivityColorBinding
+import com.minimalstudios.colors.databinding.ActivityColorBinding
 
 class ColorActivity : AppCompatActivity() {
 

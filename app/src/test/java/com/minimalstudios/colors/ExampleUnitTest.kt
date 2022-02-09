@@ -1,4 +1,4 @@
-package com.example.colors
+package com.minimalstudios.colors
 
 import org.junit.Test
 

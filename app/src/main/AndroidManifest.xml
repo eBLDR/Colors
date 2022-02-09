@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.colors">
+    package="com.minimalstudios.colors">
 
     <application
         android:allowBackup="true"
@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Colors">
         <activity
-            android:name=".ColorActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.minimalstudios.colors.ColorActivity"
+            android:parentActivityName="com.minimalstudios.colors.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.minimalstudios.colors.MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

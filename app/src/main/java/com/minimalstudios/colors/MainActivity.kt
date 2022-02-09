@@ -1,11 +1,11 @@
-package com.example.colors
+package com.minimalstudios.colors
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.colors.databinding.ActivityMainBinding
+import com.minimalstudios.colors.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
