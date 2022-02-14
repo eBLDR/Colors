@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Colors">
         <activity
-            android:name="com.minimalstudios.colors.ColorActivity"
-            android:parentActivityName="com.minimalstudios.colors.MainActivity"
+            android:name=".ColorActivity"
+            android:parentActivityName=".MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.minimalstudios.colors.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
